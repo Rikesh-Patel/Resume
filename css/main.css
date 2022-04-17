@@ -1,9 +1,5 @@
 /* =================================================================== 
  *
- *  Hola v1.0 Main Stylesheet
- *  10-02-2017
- *  ------------------------------------------------------------------
- *
  *  TOC:
  *  # webfonts and iconfonts
  *  # base style overrides
@@ -325,6 +321,11 @@ abbr[title], dfn[title] {
 mark {
     background: #ffd900;
     color: #000000;
+}
+
+mark.dark {
+    background: #2f2f2d;
+    color: #ffffff00;
 }
 
 hr {
@@ -1721,6 +1722,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * # home - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
+
+ .home-intro{
+    background: url("images/datascreen.jpeg");
+    height:500px;
+    
+    
+    }
 
 .s-home {
     width: 100%;

@@ -1,7 +1,6 @@
-/* ===================================================================
- * Hola - Main JS
- *
- * ------------------------------------------------------------------- */
+
+
+
 
 (function($) {
 
@@ -386,6 +385,22 @@
     
         });
     };
+
+
+function randomImage(){
+  var images = [
+   '../images/1.png',
+   '../images/2.png',
+   '../images/3.png'];
+  var size = images.length;
+  var x = Math.floor(size * Math.random());
+  console.log(x);
+  var element = document.getElementsByClassName('home-intro');
+  console.log(element);
+  element[0].style["background"] = "url("+ images[x] + ") no-repeat;";
+}
+
+document.addEventListener("DOMContentLoaded", randomImage);
 
 
    /* Back to Top
