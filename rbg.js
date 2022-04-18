@@ -1,34 +1,37 @@
 
-/* const imgs = [];
-imgs[1] = 'images/1.jpeg';
-imgs[2] = 'images/2.jpeg';
-imgs[3] = 'images/3.jpeg';
-imgs[4] = 'images/4.jpg';
+
+
+
+/*
+ const imgs = [];
+imgs[1] = './images/1.jpg';
+imgs[2] = './images/2.jpg';
+imgs[3] = './images/3.jpg';
+imgs[4] = './images/4.jpg';
 
 window.onload = function() {
 
-    const random = Math.floor(Math.random * imgs.length);
-   document.body.style.backgroundImage = `url(${imgs[random]})`; 
+    const random = Math.floor(Math.random() * imgs.length);
+    document.style.backgroundImage = `url(${imgs[random]})`;
 }
 */
-
+/*
  var images = [
      'images/1.jpg',
      'images/2.jpg',
      'images/3.jpg',
      'images/4.jpg'];
 
-var img = document.getElementById("home");
 function imgDisp(num) {
 
     var size = images.length;
     var num = Math.floor(size * Math.random());
-    img.style = url('images/2.jpeg');
+    document.getElementById('image').src = images[x];
 
 }
 imgDisp();
 
-
+*/
 /*
    var x = Math.floor(size * Math.random());
     console.log(x);

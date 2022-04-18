@@ -44,6 +44,15 @@
     };
 
 
+    document.addEventListener("DOMContentLoaded", () => {
+        const log = console.log,
+          array = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+          random = Math.floor(Math.random() * array.length),
+          target = document.getElementById("target");
+        target.src = `${array[random]}`;
+        log(target);
+      });
+
     /* pretty print
      * -------------------------------------------------- */
     var ssPrettyPrint = function() {
