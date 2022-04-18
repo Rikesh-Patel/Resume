@@ -1724,7 +1724,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
  .home{
-    background-image: url("../images/1.jpeg");
+    background-image: url("images/1.jpeg");
     height:500px;
 
     
