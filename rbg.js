@@ -4,7 +4,7 @@ var images = [
      '../images/3.jpeg',
      '../images/4.jpg'];
 
-var img = document.getElementById("img");
+var img = document.getElementById("home");
 function imgDisp(num) {
 
     var size = images.length;
