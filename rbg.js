@@ -13,9 +13,9 @@ window.onload = function() {
 */
 
  var images = [
-     'images/1.jpeg',
-     'images/2.jpeg',
-     'images/3.jpeg',
+     'images/1.jpg',
+     'images/2.jpg',
+     'images/3.jpg',
      'images/4.jpg'];
 
 var img = document.getElementById("home");
@@ -23,7 +23,7 @@ function imgDisp(num) {
 
     var size = images.length;
     var num = Math.floor(size * Math.random());
-    img.style.background = url('images/1.jpeg');
+    img.style = url('images/2.jpeg');
 
 }
 imgDisp();

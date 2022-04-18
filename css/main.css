@@ -1724,7 +1724,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 
  .home{
-    background-image: url("images/1.jpeg");
     height:500px;
 
     
@@ -1737,6 +1736,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     background-color: transparent;
     position: relative;
     display: table;
+    background-image: url("./images/4.jpg");
+
 }
 
 .s-home .shadow-overlay {
