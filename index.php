@@ -72,9 +72,15 @@
 
    <!-- home
    ================================================== -->
-<section-a id="target"  data-parallax="scroll" class="s-home page-hero target-section div-bg"
-style= "background-repeat:no-repeat; background-position:center;background-size:180vh;"   data-natural-width=3000 data-natural-height=2000 data-position-y=center> 
-<img id="target" src="images/1.jpg" class="img-bg"/>
+<section-a id="target"  data-parallax="scroll" class="s-home page-hero target-section div-bg"   data-natural-width=3000 data-natural-height=2000 data-position-y=center > 
+<img id="target" src="images/2.jpg" class="img-bg"/>
+
+
+
+
+
+
+
     
         <div class="overlay"> </div>
         <div class="shadow-overlay"></div>
@@ -86,7 +92,7 @@ style= "background-repeat:no-repeat; background-position:center;background-size:
                 <h3>Welcome!</mark.dark></h3>
 
                 <h1>
-                    I am Rikesh Patel— <br>
+                    I am — <br>
                     Imminent Data Scientist <br>
                     
                 </h1>
@@ -145,10 +151,9 @@ data science, I strive to generate reports that make data exciting, draw insight
             </div>
 
      
-     <section>
+            <section>
          <div style="width: 100%; display: table;">
             <div style="display: table-row">
-                <div style="width: 500px; display: table-cell;">  
                 <div class="row about-content about-content--timeline">
 
                     <div class="col-full text-center">
@@ -172,13 +177,9 @@ data science, I strive to generate reports that make data exciting, draw insight
                                         <br> &#8226; Game Theory</p>
                                 </div>
                             </div>
-                        </div>
-                        </div>
-                        </div>
-                    </div>
-                    
-           
-                    <div style="display: table-cell;">  
+
+            </section>
+     
             <div class="col-six tab-full right style="display: table-cell;">
                 <h3>Additional skills.</h3>
 
@@ -210,10 +211,10 @@ data science, I strive to generate reports that make data exciting, draw insight
                 </ul>
             </div>
 
-        </div> <!-- end about-content --></div>
+        </div> <!-- end about-content -->
      </div>
-        
-  </div></div></section>
+        </div>
+  
     
         <div class="row about-content about-content--buttons">
 

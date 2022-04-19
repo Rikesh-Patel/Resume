@@ -44,14 +44,18 @@
     };
 
 
-    document.addEventListener("DOMContentLoaded", () => {
-        const log = console.log,
-          array = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
-          random = Math.floor(Math.random() * array.length),
-          target = document.getElementById("target");
-        target.src = `${array[random]}`;
-        log(target);
-      });
+    const
+    log = console.log,
+    array = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"],
+    target = document.getElementById("target"),
+    lastSrc = sessionStorage.lastSrc || target.getAttribute("src");
+  let random, newSrc = lastSrc;
+  while (newSrc === lastSrc) {
+    random = Math.floor(Math.random() * array.length);
+    newSrc = array[random];
+  }
+  target.src = sessionStorage.lastSrc = newSrc;
+  log(target);
 
     /* pretty print
      * -------------------------------------------------- */
