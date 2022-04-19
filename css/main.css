@@ -1113,7 +1113,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li {
     height: .6rem;
     background: #c9c9c9;
-    width: 120%;
+    width: 50%;
     margin-bottom: 6.9rem;
     padding: 0;
     position: relative;
@@ -2227,6 +2227,9 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
+.table-wrap { display: table; }
+.table-wrap > * { display: table-cell; }
+
 .about-content {
     margin-bottom: 3rem;
 }
@@ -2266,7 +2269,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
     padding-left: 5rem;
     min-height: 28.8rem;
-    width: 28rem;
+    width: 100%;
 }
 
 .timeline__bullet {
