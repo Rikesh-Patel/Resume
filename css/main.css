@@ -2248,6 +2248,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
     text-align: left;
     margin-top: 3.6rem;
+    
 }
 
 .timeline::before {
@@ -2263,8 +2264,9 @@ html.no-csstransitions .home-content__main {
 
 .timeline__block {
     position: relative;
-    padding-left: 8rem;
-    min-height: 28.8rem;
+    padding-left: 5rem;
+    min-height: 280.8rem;
+    width: 28rem;
 }
 
 .timeline__bullet {
