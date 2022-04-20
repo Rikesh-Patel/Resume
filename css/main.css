@@ -2265,13 +2265,13 @@ html.no-csstransitions .home-content__main {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     position: absolute;
-    left: 2rem;
+    left: 1rem;
     top: 0;
 }
 
 .timeline__block {
     position: relative;
-    min-height: 28.8rem;
+    min-height: 8.8rem;
     width: 100%;
 }
 
@@ -2280,10 +2280,10 @@ html.no-csstransitions .home-content__main {
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 50%;
-    margin-left: -0.75rem;
+    margin-left: -5%;
     box-shadow: 0 0 0 9px #E9E9E9;
     position: absolute;
-    left: 2rem;
+    left: 6.3%;
     top: .3rem;
 }
 
@@ -2316,6 +2316,11 @@ html.no-csstransitions .home-content__main {
  * responsive:
  * about
  * ------------------------------------------------------------------- */
+
+ @media only screen and (min-width: 800px) {
+    .indenta {
+        left:25%;
+    }}
 
 @media only screen and (max-width: 1000px) {
     .about-content .left {
@@ -2376,6 +2381,7 @@ html.no-csstransitions .home-content__main {
         padding-left: 5.5rem;
     }
 }
+
 
 
 
