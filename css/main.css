@@ -1105,6 +1105,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## skillbars - (_skillbars.scss)
  * ------------------------------------------------------------------- */
 
+ .table-wrap { display: table; }
+ .table-wrap > * { display: table-cell; }
+
 .skill-bars {
     list-style: none;
     margin: 6rem 0 3rem;
@@ -1113,7 +1116,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li {
     height: .6rem;
     background: #c9c9c9;
-    width: 50%;
+    width: 40%;
     margin-bottom: 6.9rem;
     padding: 0;
     position: relative;
@@ -1129,6 +1132,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .2rem;
     font-size: 1.4rem;
     line-height: 2.4rem;
+    margin:10px
 }
 
 .skill-bars li .progress {
