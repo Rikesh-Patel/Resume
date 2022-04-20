@@ -68,6 +68,24 @@ html {
     font-size: 10px;
 }
 
+@media only screen and (min-width: 600px) {
+    #table1 {
+        display: table;
+    }
+    #table1 > * { display: table-cell; }
+}
+
+@media only screen and (min-width: 600px) {
+    #tableindent {
+        text-indent: 15px;
+     }}
+
+     @media only screen and (min-width: 600px) {
+        #tableindent2 {
+            margin-left: 5px;
+         }}
+
+
 @media only screen and (max-width: 400px) {
     html {
         font-size: 9.375px;
@@ -1105,8 +1123,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## skillbars - (_skillbars.scss)
  * ------------------------------------------------------------------- */
 
- .table-wrap { display: table; }
- .table-wrap > * { display: table-cell; }
+
 
 .skill-bars {
     list-style: none;
