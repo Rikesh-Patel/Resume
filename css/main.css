@@ -1116,8 +1116,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li {
     height: .6rem;
     background: #c9c9c9;
-    width: 40%;
-    margin-bottom: 6.9rem;
+    width: 80%;
+    margin-bottom: 5.9rem;
     padding: 0;
     position: relative;
 }
