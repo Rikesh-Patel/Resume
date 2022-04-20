@@ -2271,7 +2271,6 @@ html.no-csstransitions .home-content__main {
 
 .timeline__block {
     position: relative;
-    padding-left: 5rem;
     min-height: 28.8rem;
     width: 100%;
 }
