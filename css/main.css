@@ -1315,7 +1315,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
 }
 
-.section-intro.has-bottom-sep::after {
+.section-intro.has-bottom-::after {
     display: inline-block;
     height: 1px;
     width: 240px;
