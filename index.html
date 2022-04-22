@@ -242,7 +242,7 @@ data science, I strive to generate reports that make data exciting, draw insight
                     <div class="timeline__block" style="left:5%">
                         <div class="timeline__bullet" style="Left:0.5%"></div>
                         <div class="timeline__header" >
-                            <p class="timeline__timeframe">June 2021 - Present</p>
+                            <p id="tableindent2" class="timeline__timeframe" >June 2021 - Present</p>
                             <h3>One Electric</h3>
                             <h5>Project Engineer</h5>
                         </div>
@@ -779,16 +779,13 @@ data science, I strive to generate reports that make data exciting, draw insight
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mqkngzgr" method="post">
                     <fieldset id="fs-frm-inputs">
     
-                    <input name="name" type="text" id="full-name" placeholder="Name"  minlength="2" required="" aria-required="true" class="full-width">
-                   <input name="_replyto" type="email" id="contactEmail" placeholder="Email"  required="" aria-required="true" class="full-width">
-                    
-        
+                        <input name="name" type="text" id="full-name" placeholder="Name"  minlength="2" required="" aria-required="true" class="full-width">
+                        <input name="_replyto" type="email" id="contactEmail" placeholder="Email"  required="" aria-required="true" class="full-width">
                         <input name="subject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
-                    
-                        <textarea name="message" id="contactMessage" placeholder="Message" rows="4" required="" aria-required="true" class="full-width"></textarea>
+                        <textarea name="message" id="contactMessage" placeholder="Message" rows="4" required="" aria-required="true" class="full-width" ></textarea>
                   
                    
-                        <button class="full-width btn--primary">Submit</button>
+                        <button class="full-width btn--primary" style="text-align: center;">Submit</button>
                         <div  type="submit" value="Send" class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
@@ -797,23 +794,12 @@ data science, I strive to generate reports that make data exciting, draw insight
                                 <div class="bounce3"></div>
                             </div>
                         </div>
-                    </div>
+                    
     
                     </fieldset>
                 </form>
 
-                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mqkngzgr" method="post">
-                    <fieldset id="fs-frm-inputs">
-                      <label for="full-name">Full Name</label>
-                      <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-                      <label for="email-address">Email Address</label>
-                      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-                      <label for="message">Message</label>
-                      <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-                      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-                    </fieldset>
-                    <input type="submit" value="Submit">
-                  </form>
+                
                 <!-- contact-warning -->
                 <div class="message-warning">
                     Something went wrong. Please try again.
