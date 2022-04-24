@@ -58,7 +58,7 @@
             <ul class="header-nav">
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
                 <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Work</a></li>
                 <li><a class="smoothscroll"  href="#blog" title="blog">Projects</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
             </ul>
@@ -91,7 +91,7 @@ style= "background-repeat:no-repeat; background-position:center;background-size:
                 </h1>
 
                 <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
+                    <a href="#blogs" class="smoothscroll btn btn--stroke">
                         Latest Projects
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
@@ -201,7 +201,7 @@ data science, I strive to generate reports that make data exciting, draw insight
                                     </li>   
                                     <li>
                                    <!-- <div class="progress percent90"><span>80%</span></div> -->
-                                    <strong>Microsoft Excel</strong>
+                                    <strong id="works">Microsoft Excel</strong>
                                     </li>   
                                 </ul>
                             </div>
@@ -219,9 +219,8 @@ data science, I strive to generate reports that make data exciting, draw insight
 
  <!-- end about-content -->
     
-        <div class="row about-content about-content--buttons">
 
-            <div class="col-six tab-full left" style="padding-top:10px">
+         <!--   <div class="col-six tab-full left" style="padding-top:10px">
                 <a href="#0" class="btn btn--primary full-width" onclick="window.location.href='/resume.pdf';" target=”_blank” >Download My Resume</a>
             </div>
     <!--        <div class="col-six tab-full right">
@@ -230,9 +229,9 @@ data science, I strive to generate reports that make data exciting, draw insight
         -->
         </div> <!-- end about-content buttons -->
 
-        <div class="row about-content about-content--timeline">
+        <div  class="row about-content about-content--timeline">
 
-            <div class="col-full text-center">
+            <div  class="col-full text-center">
                 <h3>Work Experience</h3>
             </div>
 
@@ -298,16 +297,27 @@ data science, I strive to generate reports that make data exciting, draw insight
                     </div> <!-- end timeline__block -->
 
                 </div> <!-- end timeline -->
+                <div class="row about-content about-content--buttons">
+
+                    <div class="col-six tab-full left" style="padding-top:10px">
+                        <a href="#0" class="btn btn--stroke" style="text-align: center;" onclick="window.location.href='/resume.pdf';">View My Resume</a>
+                    </div>
+            <!--        <div class="col-six tab-full right">
+                        <a href="#0" class="btn full-width">Hire Me Now</a>
+                    </div>
+                -->
+                </div> <!-- end about-content buttons -->
             </div> <!-- end right -->
 
         </div> <!-- end about-content timeline -->
-
+       
     </section> <!-- end about -->
-    
+   
+
 
     <!-- works
     ================================================== -->
-  <section id="works" class="s-works target-section">
+  <section id="blogs" class="s-works target-section">
 
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
@@ -781,11 +791,12 @@ data science, I strive to generate reports that make data exciting, draw insight
     
                         <input name="name" type="text" id="full-name" placeholder="Name"  minlength="2" required="" aria-required="true" class="full-width">
                         <input name="_replyto" type="email" id="contactEmail" placeholder="Email"  required="" aria-required="true" class="full-width">
+                        <input type="hidden"  name"_next" value="https://rikeshpatel.io/#contact">
                         <input name="subject" type="text" id="contactSubject" placeholder="Subject" class="full-width">
-                        <textarea name="message" id="contactMessage" placeholder="Message" rows="4" required="" aria-required="true" class="full-width" ></textarea>
+                        <textarea name="message" id="contactMessage" placeholder="Message" rows="2" required="" aria-required="true" class="full-width" ></textarea>
                   
                    
-                        <button class="full-width btn--primary" style="text-align: center;">Submit</button>
+                        <button href="#0" class="full-width btn--primary" style="text-align: center;">Submit</button>
                         <div  type="submit" value="Send" class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
