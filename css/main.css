@@ -1451,6 +1451,31 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: none;
 }
 
+.blog-list .blog-tat a:hover, 
+.blog-list .blog-tat a:focus, 
+.blog-list .blog-tat a:active {
+    color: #862121;
+}
+
+.but a:hover, 
+.but a:focus, 
+.but a:active {
+    background-color: black;
+    color: black;
+}
+
+.but:hover, 
+button:hover, 
+input[type="submit"]:hover, 
+input[type="reset"]:hover, 
+input[type="button"]:hover, 
+.btn:focus, button:focus, 
+input[type="submit"]:focus, 
+input[type="reset"]:focus, 
+input[type="button"]:focus {
+    background-color: white;
+    color: #000000;
+}
 
 /* ------------------------------------------------------------------- 
  * responsive:
