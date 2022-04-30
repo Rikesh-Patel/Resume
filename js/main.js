@@ -56,7 +56,7 @@
   }
   target.src = sessionStorage.lastSrc = newSrc;
   log(target);
-
+ 
     /* pretty print
      * -------------------------------------------------- */
     var ssPrettyPrint = function() {
