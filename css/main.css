@@ -2359,6 +2359,11 @@ html.no-csstransitions .home-content__main {
     padding-bottom: 3rem;
 }
 
+@media only screen and (min-width: 401px) {
+.resumebut {
+    padding-top:20px; margin-left: 15%; padding-right:0%;
+    
+}}
 
 /* ------------------------------------------------------------------- 
  * responsive:
