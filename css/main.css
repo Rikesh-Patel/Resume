@@ -2616,12 +2616,12 @@ html.no-csstransitions .home-content__main {
 
 /* on hover */
 
-.item-folio:hover .item-folio__thumb a::before {
+.item-folio:hover .item-folio__thum a::before {
     opacity: 1;
     visibility: visible;
 }
 
-.item-folio:hover .item-folio__thumb a::after {
+.item-folio:hover .item-folio__thum a::after {
     opacity: 1;
     visibility: visible;
     -webkit-transform: scale(1);
@@ -2630,6 +2630,11 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio:hover .item-folio__thumb img {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.item-folio2:hover .item-folio__thumb img {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
