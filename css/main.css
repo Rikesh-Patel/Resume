@@ -2480,6 +2480,10 @@ html.no-csstransitions .home-content__main {
     position: relative;
     overflow: hidden;
 }
+.item-folio2 {
+    position: relative;
+    overflow: hidden;
+}
 
 .item-folio__thumb img {
     vertical-align: top;
