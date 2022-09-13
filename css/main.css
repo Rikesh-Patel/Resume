@@ -2486,7 +2486,7 @@ html.no-csstransitions .home-content__main {
     transition: 2s
 }
 
-@media only screen and (max-width: 799px) {
+@media only screen and (min-width:641px) {
     .masonry__brick img{
         float: left;
         padding: 4px;
