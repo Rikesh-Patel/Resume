@@ -2473,10 +2473,25 @@ html.no-csstransitions .home-content__main {
     
 }
 
-.masonry__brick {
+
+.masonry__brick img{
     float: left;
-    padding: 4px;
+    padding: 5px;
+    filter: grayscale(1);
 }
+.masonry__brick:hover img{
+    float: left;
+    padding: 8px;
+    filter: none;
+    transition: 2s
+}
+
+@media only screen and (max-width: 799px) {
+    .masonry__brick img{
+        float: left;
+        padding: 4px;
+    }
+
 
 .item-folio {
     position: relative;
@@ -2485,7 +2500,6 @@ html.no-csstransitions .home-content__main {
 .item-folio2 {
     position: relative;
     overflow: hidden;
-    filter: grayscale(100%);
 }
 
 .item-folio__thumb img {
@@ -2645,8 +2659,6 @@ html.no-csstransitions .home-content__main {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    filter:none;
-     
 }
 
 .item-folio:hover .item-folio__project-link {
