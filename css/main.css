@@ -2485,6 +2485,7 @@ html.no-csstransitions .home-content__main {
 .item-folio2 {
     position: relative;
     overflow: hidden;
+    filter: grayscale(100%);
 }
 
 .item-folio__thumb img {
@@ -2644,6 +2645,8 @@ html.no-csstransitions .home-content__main {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
+    filter:none;
+     
 }
 
 .item-folio:hover .item-folio__project-link {
